@@ -892,7 +892,7 @@
 		};
 		CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "SantanderWrappers" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SerenaKit/SantanderWrappers";
+			repositoryURL = "https://github.com/tageniu/PrivateKits";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -900,7 +900,7 @@
 		};
 		CED78C4628FDEC610097D2C5 /* XCRemoteSwiftPackageReference "SantanderWrappers" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SerenaKit/SantanderWrappers";
+			repositoryURL = "https://github.com/tageniu/PrivateKits";
 			requirement = {
 				branch = main;
 				kind = branch;
