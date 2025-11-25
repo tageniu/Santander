@@ -21,7 +21,7 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: macos-12
+    runs-on: macos-latest
 
     steps:
       - name: Checkout
@@ -33,10 +33,6 @@ jobs:
           packages: ldid
           cache: true
           cache-path: ~/__cache
-
-      - name: Select Xcode version (14.0)
-        run: |
-          sudo xcode-select --switch /Applications/Xcode_14.0.app
 
       - name: Build IPA
         run: |
