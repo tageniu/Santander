@@ -492,7 +492,7 @@
 			mainGroup = 3789B5D328622B7A00058688;
 			packageReferences = (
 				CEDAF41E28C36B2900DF03E6 /* XCRemoteSwiftPackageReference "Runestone" */,
-				CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "SantanderWrappers" */,
+				CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "PrivateKits" */,
 				CE2D13D6291D8EE50023F16D /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
 			);
 			productRefGroup = 3789B5DD28622B7A00058688 /* Products */;
@@ -742,7 +742,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L9735M962H;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Santander/Info.plist;
@@ -763,7 +763,7 @@
 					IOKit,
 				);
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.serena.santandermm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tageniu.santander;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Santander/Other/External/**";
@@ -781,7 +781,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L9735M962H;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Santander/Info.plist;
@@ -802,7 +802,7 @@
 					IOKit,
 				);
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.serena.santandermm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tageniu.santander;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Santander/Other/External/**";
@@ -890,7 +890,7 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "SantanderWrappers" */ = {
+		CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "PrivateKits" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/tageniu/PrivateKits";
 			requirement = {
@@ -898,7 +898,7 @@
 				kind = branch;
 			};
 		};
-		CED78C4628FDEC610097D2C5 /* XCRemoteSwiftPackageReference "SantanderWrappers" */ = {
+		CED78C4628FDEC610097D2C5 /* XCRemoteSwiftPackageReference "PrivateKits" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/tageniu/PrivateKits";
 			requirement = {
@@ -924,7 +924,7 @@
 		};
 		CE2D13D9291D8F210023F16D /* FSOperations */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "SantanderWrappers" */;
+			package = CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "PrivateKits" */;
 			productName = FSOperations;
 		};
 		CE2D13DD291D8F8A0023F16D /* ArgumentParser */ = {
@@ -934,37 +934,37 @@
 		};
 		CE7E02C428FFF44E0046A7D4 /* FSOperations */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CED78C4628FDEC610097D2C5 /* XCRemoteSwiftPackageReference "SantanderWrappers" */;
+			package = CED78C4628FDEC610097D2C5 /* XCRemoteSwiftPackageReference "PrivateKits" */;
 			productName = FSOperations;
 		};
 		CE7E02D628FFF8020046A7D4 /* AssetCatalogWrapper */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CED78C4628FDEC610097D2C5 /* XCRemoteSwiftPackageReference "SantanderWrappers" */;
+			package = CED78C4628FDEC610097D2C5 /* XCRemoteSwiftPackageReference "PrivateKits" */;
 			productName = AssetCatalogWrapper;
 		};
 		CEA33B36291619EB00DD7BAC /* ApplicationsWrapper */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "SantanderWrappers" */;
+			package = CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "PrivateKits" */;
 			productName = ApplicationsWrapper;
 		};
 		CEA33B38291619EB00DD7BAC /* AssetCatalogWrapper */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "SantanderWrappers" */;
+			package = CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "PrivateKits" */;
 			productName = AssetCatalogWrapper;
 		};
 		CEA33B3A291619EB00DD7BAC /* CompressionWrapper */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "SantanderWrappers" */;
+			package = CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "PrivateKits" */;
 			productName = CompressionWrapper;
 		};
 		CEA33B3E291619EB00DD7BAC /* FSOperations */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "SantanderWrappers" */;
+			package = CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "PrivateKits" */;
 			productName = FSOperations;
 		};
 		CEA33B40291619EB00DD7BAC /* NSTask */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "SantanderWrappers" */;
+			package = CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "PrivateKits" */;
 			productName = NSTask;
 		};
 		CEDAF41F28C36B2900DF03E6 /* Runestone */ = {
@@ -974,17 +974,17 @@
 		};
 		CEE06A36291E1E0A00DA8C75 /* CompressionWrapper */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "SantanderWrappers" */;
+			package = CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "PrivateKits" */;
 			productName = CompressionWrapper;
 		};
 		CEE9B2D729C4590E00D6C826 /* ApplicationsWrapper */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "SantanderWrappers" */;
+			package = CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "PrivateKits" */;
 			productName = ApplicationsWrapper;
 		};
 		CEE9B2DB29C4592700D6C826 /* NSTask */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "SantanderWrappers" */;
+			package = CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "PrivateKits" */;
 			productName = NSTask;
 		};
 /* End XCSwiftPackageProductDependency section */
