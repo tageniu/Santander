@@ -445,6 +445,31 @@ extension AssetCatalogViewController: UICollectionViewDelegate {
             // set the default selected color as the item's current CGColor
             colorVC.selectedColor = UIColor(cgColor: currentCgColor)
             vc = colorVC
+        case .rawData(let data):
+            // Try to decode the raw data as an image and present a simple preview.
+            if let image = UIImage(data: data) {
+                let previewVC = UIViewController()
+                let imageView = UIImageView(image: image)
+                imageView.contentMode = .scaleAspectFit
+                imageView.translatesAutoresizingMaskIntoConstraints = false
+                previewVC.view.addSubview(imageView)
+                NSLayoutConstraint.activate([
+                    imageView.topAnchor.constraint(equalTo: previewVC.view.topAnchor),
+                    imageView.bottomAnchor.constraint(equalTo: previewVC.view.bottomAnchor),
+                    imageView.leadingAnchor.constraint(equalTo: previewVC.view.leadingAnchor),
+                    imageView.trailingAnchor.constraint(equalTo: previewVC.view.trailingAnchor)
+                ])
+                vc = previewVC
+            } else {
+                // Fallback UI for unsupported raw data
+                let alert = UIAlertController(
+                    title: "Unsupported",
+                    message: "This raw data cannot be edited or previewed.",
+                    preferredStyle: .alert
+                )
+                alert.addAction(UIAlertAction(title: "OK", style: .default))
+                vc = alert
+            }
         }
         
         vcToPresentFrom.present(vc, animated: true)
